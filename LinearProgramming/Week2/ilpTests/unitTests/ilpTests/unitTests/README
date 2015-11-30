@@ -1,0 +1,6 @@
+Each test is inside a dictionary file.
+Consult the file toRun for a list of all test
+
+
+For each test .output file is the sample output
+.tex file when compiled to a PDF gives step by step runs for each file.

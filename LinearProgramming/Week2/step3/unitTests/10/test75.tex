@@ -1,0 +1,40 @@
+\documentclass[9pt]{article}
+\usepackage{amsmath}
+\begin{document}
+Read in the following dictionary:
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{6}   &  0.0 & +  3.00 x_{1} & -8.00 x_{2} & + 10.00 x_{3} & -10.00 x_{4} & -3.00 x_{5}\\
+ x_{7}   &  -3.0 & +  7.00 x_{1} & -10.00 x_{2} & +  6.00 x_{3} & +  4.00 x_{4} & -10.00 x_{5}\\
+ x_{8}   &  1.0 & -5.00 x_{1} & +  2.00 x_{2} & -4.00 x_{3} & -2.00 x_{4} & -9.00 x_{5}\\
+ x_{9}   &  -1.0  &   & -2.00 x_{2} & + 10.00 x_{3} & -9.00 x_{4} & -1.00 x_{5}\\
+ x_{10}   &  3.0 & -5.00 x_{1} & -4.00 x_{2} & -6.00 x_{3} & +  7.00 x_{4} & +  6.00 x_{5}\\
+\hline
+z    &  0.0 & +  5.00 x_{1} & +  5.00 x_{2} & -2.00 x_{3} & +  3.00 x_{4} & -5.00 x_{5}\\
+\end{array}\]
+\subsection{Initialization Phase: Dual Problem Solving}
+New Objective in primal was changed to : \[ \max\ \sum_{j=1}^{5}\ - x_j \] 
+Primal variable $x_j$ corresponds to dual variable $y_j$ for $j = 1,\ldots,10$
+Dual Dictionary (with objective changed is): 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{1}   &  1.0 & -3.00 y_{6} & -7.00 y_{7} & +  5.00 y_{8} &   & +  5.00 y_{10}\\
+ y_{2}   &  1.0 & +  8.00 y_{6} & + 10.00 y_{7} & -2.00 y_{8} & +  2.00 y_{9} & +  4.00 y_{10}\\
+ y_{3}   &  1.0 & -10.00 y_{6} & -6.00 y_{7} & +  4.00 y_{8} & -10.00 y_{9} & +  6.00 y_{10}\\
+ y_{4}   &  1.0 & + 10.00 y_{6} & -4.00 y_{7} & +  2.00 y_{8} & +  9.00 y_{9} & -7.00 y_{10}\\
+ y_{5}   &  1.0 & +  3.00 y_{6} & + 10.00 y_{7} & +  9.00 y_{8} & +  1.00 y_{9} & -6.00 y_{10}\\
+\hline
+z    &  -0  &   & +  3.00 y_{7} & -1.00 y_{8} & +  1.00 y_{9} & -3.00 y_{10}\\
+\end{array}\]
+Unbounded Dictionary!
+Initialization returns unbounded dual dictionary after 4 pivots
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{7}   &  0.5 & + 15.00 y_{6} & -1.00 y_{4} & +  0.50 y_{3} & + 14.00 y_{9} & -10.00 y_{10}\\
+ y_{2}   &  5.0 & + 108.00 y_{6} & -7.00 y_{4} & +  3.00 y_{3} & + 95.00 y_{9} & -63.00 y_{10}\\
+ y_{8}   &  0.5 & + 25.00 y_{6} & -1.50 y_{4} & +  1.00 y_{3} & + 23.50 y_{9} & -16.50 y_{10}\\
+ y_{1}   &  -1.94289029309e-16 & + 17.00 y_{6} & -0.50 y_{4} & +  1.50 y_{3} & + 19.50 y_{9} & -7.50 y_{10}\\
+ y_{5}   &  10.5 & + 378.00 y_{6} & -23.50 y_{4} & + 14.00 y_{3} & + 352.50 y_{9} & -254.50 y_{10}\\
+\hline
+z    &  1.0 & + 20.00 y_{6} & -1.50 y_{4} & +  0.50 y_{3} & + 19.50 y_{9} & -16.50 y_{10}\\
+\end{array}\]
+Original Problem is Infeasible
+Infeasible Problem.. Early Exit
+\end{document}

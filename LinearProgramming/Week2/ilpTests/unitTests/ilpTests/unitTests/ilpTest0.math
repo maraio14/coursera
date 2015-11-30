@@ -1,0 +1,11 @@
+var x1  integer >=0 ;
+var x2  integer >=0 ;
+var x3  integer >=0 ;
+var x4  integer >=0 ;
+maximize obj: 0.0  -1.0 * x1   -1.0 * x2 ;
+c1: x3 = -1.5  + 1.0 * x1  + 0.0 * x2 ;
+c2: x4 = -1.5  + 0.0 * x1  + 1.0 * x2 ;
+solve; 
+display 0.0  -1.0 * x1   -1.0 * x2 ;
+ 
+ end; 

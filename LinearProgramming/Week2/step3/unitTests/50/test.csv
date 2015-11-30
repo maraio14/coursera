@@ -1,0 +1,101 @@
+Name, OurTool, GLPSOL
+test0,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test1,204.103882,204.103881978511
+test10,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test11,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test12,414.434402,414.434402318124
+test13,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test14,126.917952,126.917951668357
+test15,447.940037,447.940037339251
+test16,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test17,254.019420,254.01941962079
+test18,329.169398,329.169398440358
+test19,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test2,216.897025,216.897024758715
+test20,417.922296,417.922296191038
+test21,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test22,483.752063,483.752062705795
+test23,511.337286,511.337285708287
+test24,477.088030,477.088030116757
+test25,245.636788,245.636787588538
+test26,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test27,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test28,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test29,246.848810,246.848809963368
+test3,1079.366618,1079.3666183271
+test30,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test31,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test32,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test33,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test34,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test35,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test36,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test37,782.830341,782.830340808763
+test38,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test39,5798.307585,5798.30758495331
+test4,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test40,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test41,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test42,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test43,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test44,447.942194,447.942193780646
+test45,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test46,239.771885,239.771885106699
+test47,728.700093,728.700093295006
+test48,337.471980,337.471979809581
+test49,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test5,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test50,295.944159,295.944158720192
+test51,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test52,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test53,1307.359005,1307.35900509512
+test54,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test55,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test56,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test57,574.622397,574.622397348035
+test58,1457.333083,1457.33308335574
+test59,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test6,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test60,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test61,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test62,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test63,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test64,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test65,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test66,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test67,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test68,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test69,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test7,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test70,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test71,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test72,257.361822,257.361821587131
+test73,119.222355,119.222355379401
+test74,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test75,464.066692,464.066691503177
+test76,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test77,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test78,171.080532,171.080532133122
+test79,340.566220,340.566220003227
+test8,259.103370,259.103369727935
+test80,410.224911,410.224911374691
+test81,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test82,336.831488,336.831488065275
+test83,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test84,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test85,377.954415,377.954415156739
+test86,111.802841,111.8028410584
+test87,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test88,230.046392,230.046392407653
+test89,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test9,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test90,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test91,-33.324727,-33.3247270314599
+test92,271.481077,271.48107731465
+test93,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test94,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test95,315.840037,315.840036771598
+test96,333.917311,333.917310593767
+test97,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test98,221.060296,221.060296454117
+test99,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution

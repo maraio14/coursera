@@ -1,0 +1,86 @@
+\documentclass[8pt]{article}
+\usepackage{amsmath,amssymb,amsfonts}
+\begin{document}
+Initial Dictionary 
+
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{3}   &  6.0 & -3.00 x_{1} & -2.00 x_{2}\\
+ x_{4}   &  0.0 & +  3.00 x_{1} & -2.00 x_{2}\\
+\hline
+z    &  0.0  &   & +  1.00 x_{2}\\
+\end{array}\]
+No initialization required --> Proceed to Optimize. 
+
+
+ $ x_{2} $ enters and $ x_{4} $ leaves 
+
+ \[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{3}   &  6.0 & -6.00 x_{1} & +  1.00 x_{4}\\
+ x_{2}   &  0.0 & +  1.50 x_{1} & -0.50 x_{4}\\
+\hline
+z    &  0.0 & +  1.50 x_{1} & -0.50 x_{4}\\
+\end{array}\]
+
+
+ $ x_{1} $ enters and $ x_{3} $ leaves 
+
+ \[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  1.0 & -0.17 x_{3} & +  0.17 x_{4}\\
+ x_{2}   &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+\hline
+z    &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+\end{array}\]
+Final Dictionary
+Final dictionary after first LP relaxation solve: 
+
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  1.0 & -0.17 x_{3} & +  0.17 x_{4}\\
+ x_{2}   &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+\hline
+z    &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+\end{array}\]
+ After cutting plane is added 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  1.0 & -0.17 x_{3} & +  0.17 x_{4}\\
+ x_{2}   &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+ x_{5}   &  -0.5 & +  0.25 x_{3} & +  0.25 x_{4}\\
+\hline
+z    &  1.5 & -0.25 x_{3} & -0.25 x_{4}\\
+\end{array}\]
+Forming the dual dictionary:
+
+The Final Dual Dictionary is: 
+
+ Final primal dictionary obtained: 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  0.666666666667 & -0.67 x_{5} & +  0.33 x_{4}\\
+ x_{2}   &  1.0 & -1.00 x_{5} &   \\
+ x_{3}   &  2.0 & +  4.00 x_{5} & -1.00 x_{4}\\
+\hline
+z    &  1.0 & -1.00 x_{5} &   \\
+\end{array}\]
+ After cutting plane is added 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  0.666666666667 & -0.67 x_{5} & +  0.33 x_{4}\\
+ x_{2}   &  1.0 & -1.00 x_{5} &   \\
+ x_{3}   &  2.0 & +  4.00 x_{5} & -1.00 x_{4}\\
+ x_{6}   &  -0.666666666667 & +  0.67 x_{5} & +  0.67 x_{4}\\
+\hline
+z    &  1.0 & -1.00 x_{5} &   \\
+\end{array}\]
+Forming the dual dictionary:
+
+The Final Dual Dictionary is: 
+
+ Final primal dictionary obtained: 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{1}   &  1.0 & -1.00 x_{5} & +  0.50 x_{6}\\
+ x_{2}   &  1.0 & -1.00 x_{5} &   \\
+ x_{3}   &  1.0 & +  5.00 x_{5} & -1.50 x_{6}\\
+ x_{4}   &  1.0 & -1.00 x_{5} & +  1.50 x_{6}\\
+\hline
+z    &  1.0 & -1.00 x_{5} &   \\
+\end{array}\]
+ Final answer: 1.000000 
+Done.Added 2 cuts 
+\end{document}

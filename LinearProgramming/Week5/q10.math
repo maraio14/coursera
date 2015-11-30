@@ -1,0 +1,19 @@
+var t{1..7} binary; # Declare 7 binary variables
+
+minimize obj: 12*t[1] + 8*t[2] + 12*t[3] + 10*t[4] + 9*t[5] + 10*t[6] + 7*t[7];
+
+c1: t[1] + t[2] + t[3] + t[5] >= 1;
+c2: t[2] + t[1] + t[3] + t[6] >= 1;
+c3: t[3] + t[1] + t[2] + t[4] >= 1;
+c4: t[4] + t[3] + t[6] + t[7] >= 1;
+c5: t[5] + t[1] + t[7] >= 1;
+c6: t[6] + t[2] + t[4] >= 1;
+c7: t[7] + t[4] + t[5] >= 1;
+
+
+solve;
+
+display{i in 1..7} t[i];
+
+
+end;

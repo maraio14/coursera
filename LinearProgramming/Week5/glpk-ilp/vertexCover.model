@@ -1,0 +1,21 @@
+param n;
+var x {1..n} binary; # binary specifies that the variables are binary
+
+set E within {i in 1..n, j in 1..n: i < j}; 
+# specify that the edges will be a set.
+
+minimize obj: sum{i in 1..n} x[i]; # minimize cost of the cover
+s.t.
+c{(i,j) in E}: x[i] + x[j] >= 1;
+
+solve;
+display{i in 1..n} x[i];
+printf {i in 1..n: x[i] >= 1} "vertex %d is in cover \n", i;
+data;
+param n := 16;
+
+set E :=  (2,3) (3,5) (5,8) (4,16) (5,16) (8,14) (1,8) (4,12) (3,12) (4,14) (1,12) (2,14) (2,15) (1,15) (15,16) ;
+
+
+
+end;

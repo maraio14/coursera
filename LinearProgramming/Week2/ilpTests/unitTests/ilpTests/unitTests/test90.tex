@@ -1,0 +1,44 @@
+\documentclass[8pt]{article}
+\usepackage{amsmath,amssymb,amsfonts}
+\begin{document}
+Initial Dictionary 
+
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{6}   &  -1.0 & -3.00 x_{1} & -5.00 x_{2} & -6.00 x_{3} & +  1.00 x_{4} & -7.00 x_{5}\\
+ x_{7}   &  -2.0 & -4.00 x_{1} & -5.00 x_{2} & +  1.00 x_{3} & +  7.00 x_{4} & -1.00 x_{5}\\
+ x_{8}   &  2.0 & -9.00 x_{1} & -9.00 x_{2} & -1.00 x_{3} & +  9.00 x_{4} & +  2.00 x_{5}\\
+ x_{9}   &  -3.0 & -5.00 x_{1} & +  8.00 x_{2} & +  1.00 x_{3} & -7.00 x_{4} & +  3.00 x_{5}\\
+ x_{10}   &  0.0 & +  6.00 x_{1} & -1.00 x_{2} & -8.00 x_{3} & +  5.00 x_{4} & +  9.00 x_{5}\\
+ x_{11}   &  1.0 & + 10.00 x_{1} & +  2.00 x_{2} & +  2.00 x_{3} & +  6.00 x_{4} & -1.00 x_{5}\\
+\hline
+z    &  0.0 & +  4.00 x_{1} &   & -4.00 x_{3} & -4.00 x_{4} &   \\
+\end{array}\]
+\subsection{Initialization Phase: Dual Problem Solving}
+New Objective in primal was changed to : \[ \max\ \sum_{j=1}^{5}\ - x_j \] 
+Primal variable $x_j$ corresponds to dual variable $y_j$ for $j = 1,\ldots,11$
+Dual Dictionary (with objective changed is): 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{1}   &  1.0 & +  3.00 y_{6} & +  4.00 y_{7} & +  9.00 y_{8} & +  5.00 y_{9} & -6.00 y_{10} & -10.00 y_{11}\\
+ y_{2}   &  1.0 & +  5.00 y_{6} & +  5.00 y_{7} & +  9.00 y_{8} & -8.00 y_{9} & +  1.00 y_{10} & -2.00 y_{11}\\
+ y_{3}   &  1.0 & +  6.00 y_{6} & -1.00 y_{7} & +  1.00 y_{8} & -1.00 y_{9} & +  8.00 y_{10} & -2.00 y_{11}\\
+ y_{4}   &  1.0 & -1.00 y_{6} & -7.00 y_{7} & -9.00 y_{8} & +  7.00 y_{9} & -5.00 y_{10} & -6.00 y_{11}\\
+ y_{5}   &  1.0 & +  7.00 y_{6} & +  1.00 y_{7} & -2.00 y_{8} & -3.00 y_{9} & -9.00 y_{10} & +  1.00 y_{11}\\
+\hline
+z    &  -0 & +  1.00 y_{6} & +  2.00 y_{7} & -2.00 y_{8} & +  3.00 y_{9} &   & -1.00 y_{11}\\
+\end{array}\]
+Unbounded Dictionary!
+Initialization returns unbounded dual dictionary after 2 pivots
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{1}   &  4.0 & -3.00 y_{4} & -17.00 y_{7} & -18.00 y_{8} & + 26.00 y_{9} & -21.00 y_{10} & -28.00 y_{11}\\
+ y_{2}   &  6.0 & -5.00 y_{4} & -30.00 y_{7} & -36.00 y_{8} & + 27.00 y_{9} & -24.00 y_{10} & -32.00 y_{11}\\
+ y_{3}   &  7.0 & -6.00 y_{4} & -43.00 y_{7} & -53.00 y_{8} & + 41.00 y_{9} & -22.00 y_{10} & -38.00 y_{11}\\
+ y_{6}   &  1.0 & -1.00 y_{4} & -7.00 y_{7} & -9.00 y_{8} & +  7.00 y_{9} & -5.00 y_{10} & -6.00 y_{11}\\
+ y_{5}   &  8.0 & -7.00 y_{4} & -48.00 y_{7} & -65.00 y_{8} & + 46.00 y_{9} & -44.00 y_{10} & -41.00 y_{11}\\
+\hline
+z    &  1.0 & -1.00 y_{4} & -5.00 y_{7} & -11.00 y_{8} & + 10.00 y_{9} & -5.00 y_{10} & -7.00 y_{11}\\
+\end{array}\]
+Original Problem is Infeasible
+ LP Relaxation is infeasible. Nothing more to be done. 
+
+Done.Added 0 cuts 
+\end{document}

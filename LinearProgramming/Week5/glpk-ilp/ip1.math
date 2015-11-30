@@ -1,0 +1,28 @@
+var x{1..6} integer; # Declare 6 integer variables
+
+#Alternative syntax
+# var x1 integer;
+# var x2 integer;
+# var x3 integer;
+# var x4 integer;
+# var x5 integer;
+# var x6 integer;
+
+
+minimize obj: sum{i in 1..6} x[i]; 
+#Alternatively minimize obj: x1 + x2 + x3+ x4 + x5 + x6
+
+c1: x[1] + x[2] >= 1; # Alternatively: x1 + x2 >= 1
+c2: x[1] + x[2] + x[6] >= 1;
+c3: x[1] + x[2] + x[6] >= 1;
+c4: x[3] + x[4]  >= 1;
+c5: x[3]+ x[4] + x[5] >= 1;
+c6: x[4] + x[5] + x[6]   >= 1;
+c7: x[2] + x[5] + x[6] >= 1;
+
+solve;
+
+display{i in 1..6} x[i]; # alternative syntax display x1, x2,x3, x4, x5, x6;
+
+
+end;

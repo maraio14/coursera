@@ -1,0 +1,101 @@
+Name, OurTool, GLPSOL
+test0,95.369908,95.3699076192073
+test1,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test10,80.153271,80.1532705626703
+test11,71.801530,71.8015300410967
+test12,50.526814,50.5268144882563
+test13,36.185198,36.1851980155715
+test14,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test15,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test16,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test17,73.500058,73.5000580691393
+test18,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test19,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test2,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test20,51.383121,51.3831212998115
+test21,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test22,71.789947,71.78994721503
+test23,13.552858,13.5528582294033
+test24,82.672218,82.6722183293539
+test25,18.320946,18.3209459462673
+test26,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test27,38.180906,38.1809059103032
+test28,105.073349,105.073348602719
+test29,39.114512,39.1145123156052
+test3,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test30,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test31,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test32,-1.727896,-1.72789583986041
+test33,306.619324,306.619324150271
+test34,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test35,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test36,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test37,703.970747,703.970746772005
+test38,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test39,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test4,29.948373,29.9483731312025
+test40,55.625411,55.6254112269564
+test41,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test42,27.858140,27.8581395050187
+test43,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test44,82.028877,82.0288770137988
+test45,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test46,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test47,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test48,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test49,63.438848,63.4388480873415
+test5,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test50,37.093829,37.0938288030276
+test51,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test52,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test53,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test54,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test55,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test56,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test57,456.326756,456.326755640642
+test58,66.556565,66.5565653660914
+test59,206.571246,206.571245573866
+test6,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test60,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test61,62.658291,62.6582910758971
+test62,193.659398,193.659397865601
+test63,728.038110,728.038110323389
+test64,53.202028,53.2020275579025
+test65,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test66,24.201491,24.2014912380816
+test67,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test68,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test69,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test7,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test70,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test71,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test72,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test73,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test74,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test75,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test76,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test77,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test78,3584.919757,3584.91975742579
+test79,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test8,31.196122,31.1961224457572
+test80,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test81,25.250963,25.2509631857139
+test82,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test83,30.526723,30.526723193116
+test84,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test85,87.495700,87.495700013873
+test86,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test87,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test88,-1.222510,-1.22250997181838
+test89,-5.234242,-5.23424247107277
+test9,37.008072,37.0080724723483
+test90,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test91,58.725814,58.7258139946568
+test92,250.609777,250.609777327479
+test93,1.669735,1.6697351147092
+test94,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test95,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test96,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test97,50.840582,50.8405815060073
+test98,UNBOUNDED,LP HAS UNBOUNDED PRIMAL SOLUTION glp_simplex: unable to recover undefined or non-optimal solution
+test99,INFEASIBLE,LP HAS NO PRIMAL FEASIBLE SOLUTION glp_simplex: unable to recover undefined or non-optimal solution

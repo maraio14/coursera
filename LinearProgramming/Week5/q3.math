@@ -1,0 +1,30 @@
+
+var y1 binary;
+var y2 binary;
+var y3 binary;
+
+var z1 binary;
+var z2 binary;
+var z3 binary;
+var z4 binary;
+var z5 binary;
+
+# minimize obj: y1 + y2 + y3; 
+# minimize obj: z1 + z2 + z3 +z4 + z5; 
+# maximize obj: z1 + 2*z2 + 3*z3 +4*z4 + 5*z5; 
+# maximize obj: y1 + y2 + y3; 
+maximize obj: z1 + z2 + z3 +z4 + z5; 
+
+c1: y1 + y2 + (1 - y3) >= z1;
+c2: y1 + y2 + y3 >= z2;
+c3: y1 + (1 - y2) + (1 -y3) >= z3;
+c4: y1 + (1 - y2) +  y3  >= z4;
+c5: 1 - y1 >= z5;
+
+
+solve;
+
+display y1, y2,y3, z1, z2, z3, z4, z5;
+
+
+end;

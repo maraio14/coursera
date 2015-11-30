@@ -1,0 +1,45 @@
+\documentclass[8pt]{article}
+\usepackage{amsmath,amssymb,amsfonts}
+\begin{document}
+Initial Dictionary 
+
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ x_{6}   &  -1.0 & -9.00 x_{1} & +  5.00 x_{2} & -9.00 x_{3} & -1.00 x_{4} & +  2.00 x_{5}\\
+ x_{7}   &  0.0 & +  8.00 x_{1} & -9.00 x_{2} & +  5.00 x_{3} & +  8.00 x_{4} & -7.00 x_{5}\\
+ x_{8}   &  -3.0 & -4.00 x_{1} & +  1.00 x_{2} & -4.00 x_{3} & -10.00 x_{4} & -8.00 x_{5}\\
+ x_{9}   &  -3.0 & +  4.00 x_{1} & +  9.00 x_{2} & + 10.00 x_{3} & +  3.00 x_{4} & +  5.00 x_{5}\\
+ x_{10}   &  2.0 & +  4.00 x_{1} & +  1.00 x_{2} & -1.00 x_{3} & +  8.00 x_{4} &   \\
+ x_{11}   &  -1.0 & -6.00 x_{1} & +  9.00 x_{2} & +  1.00 x_{3} & +  4.00 x_{4} & -2.00 x_{5}\\
+ x_{12}   &  -1.0 & -8.00 x_{1} & + 10.00 x_{2} & +  3.00 x_{3} & +  7.00 x_{4} & -1.00 x_{5}\\
+\hline
+z    &  0.0 & +  3.00 x_{1} & -4.00 x_{2} & +  3.00 x_{3} & -4.00 x_{4} & -4.00 x_{5}\\
+\end{array}\]
+\subsection{Initialization Phase: Dual Problem Solving}
+New Objective in primal was changed to : \[ \max\ \sum_{j=1}^{5}\ - x_j \] 
+Primal variable $x_j$ corresponds to dual variable $y_j$ for $j = 1,\ldots,12$
+Dual Dictionary (with objective changed is): 
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{1}   &  1.0 & +  9.00 y_{6} & -8.00 y_{7} & +  4.00 y_{8} & -4.00 y_{9} & -4.00 y_{10} & +  6.00 y_{11} & +  8.00 y_{12}\\
+ y_{2}   &  1.0 & -5.00 y_{6} & +  9.00 y_{7} & -1.00 y_{8} & -9.00 y_{9} & -1.00 y_{10} & -9.00 y_{11} & -10.00 y_{12}\\
+ y_{3}   &  1.0 & +  9.00 y_{6} & -5.00 y_{7} & +  4.00 y_{8} & -10.00 y_{9} & +  1.00 y_{10} & -1.00 y_{11} & -3.00 y_{12}\\
+ y_{4}   &  1.0 & +  1.00 y_{6} & -8.00 y_{7} & + 10.00 y_{8} & -3.00 y_{9} & -8.00 y_{10} & -4.00 y_{11} & -7.00 y_{12}\\
+ y_{5}   &  1.0 & -2.00 y_{6} & +  7.00 y_{7} & +  8.00 y_{8} & -5.00 y_{9} &   & +  2.00 y_{11} & +  1.00 y_{12}\\
+\hline
+z    &  -0 & +  1.00 y_{6} &   & +  3.00 y_{8} & +  3.00 y_{9} & -2.00 y_{10} & +  1.00 y_{11} & +  1.00 y_{12}\\
+\end{array}\]
+Unbounded Dictionary!
+Initialization returns unbounded dual dictionary after 3 pivots
+\[\begin{array}{c| c c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} c@{\hskip 2pt} }
+ y_{1}   &  4.38709677419 & -2.06 y_{2} & -1.32 y_{4} & + 15.16 y_{8} & -26.55 y_{9} & -16.65 y_{10} & -17.87 y_{11} & -21.90 y_{12}\\
+ y_{6}   &  0.548387096774 & -0.26 y_{2} & -0.29 y_{4} & +  2.65 y_{8} & -3.19 y_{9} & -2.58 y_{10} & -3.48 y_{11} & -4.61 y_{12}\\
+ y_{3}   &  4.96774193548 & -2.16 y_{2} & -1.81 y_{4} & + 19.90 y_{8} & -34.87 y_{9} & -15.61 y_{10} & -27.68 y_{11} & -37.26 y_{12}\\
+ y_{7}   &  0.193548387097 & -0.03 y_{2} & -0.16 y_{4} & +  1.58 y_{8} & -0.77 y_{9} & -1.32 y_{10} & -0.94 y_{11} & -1.45 y_{12}\\
+ y_{5}   &  1.25806451613 & +  0.29 y_{2} & -0.55 y_{4} & + 13.77 y_{8} & -4.03 y_{9} & -4.10 y_{10} & +  2.42 y_{11} & +  0.06 y_{12}\\
+\hline
+z    &  0.548387096774 & -0.26 y_{2} & -0.29 y_{4} & +  5.65 y_{8} & -0.19 y_{9} & -4.58 y_{10} & -2.48 y_{11} & -3.61 y_{12}\\
+\end{array}\]
+Original Problem is Infeasible
+ LP Relaxation is infeasible. Nothing more to be done. 
+
+Done.Added 0 cuts 
+\end{document}
