@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ComputationalInvestingPart1.iml" filepath="$PROJECT_DIR$/.idea/ComputationalInvestingPart1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Dungeon/.idea/Dungeon.iml" filepath="$PROJECT_DIR$/../Dungeon/.idea/Dungeon.iml" />
+      <module fileurl="file://$USER_HOME$/QSTK-0.2.8/Examples/.idea/Examples.iml" filepath="$USER_HOME$/QSTK-0.2.8/Examples/.idea/Examples.iml" />
+    </modules>
+  </component>
+</project>
+
