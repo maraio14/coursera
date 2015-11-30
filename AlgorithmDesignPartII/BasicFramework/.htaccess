@@ -1,0 +1,5 @@
+RemoveType text/x-csrc
+RemoveType text/x-chdr
+RemoveType text/plain
+AddType text/plain  txt h c java py pl
+AddType application/xhtml+xml  xhtml
